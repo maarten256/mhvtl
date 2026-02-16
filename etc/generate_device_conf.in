@@ -458,5 +458,5 @@ echo '===>' "Generating: $DEST_DIR/$DEVICE_CONF ..."
 (
 	generate_static_comments
 	add_library_contents_10
-	add_library_contents_30
+#	add_library_contents_30
 ) > $DEST_DIR/$DEVICE_CONF

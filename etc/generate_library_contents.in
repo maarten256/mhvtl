@@ -86,20 +86,20 @@ CONF_SAMPLE
 	case $LIBID in
 	'10')
 		# LTO-8 Media
-		for a in {1..20} ; do
+		for a in {1..6} ; do
 			printf "Slot $a: E0%02d%02dL8\n" $LIBID $a
 		done
-		printf "Slot 21: \n"
-		printf "Slot 22: CLN%02d1L8\n" $LIBID
-		printf "Slot 23: CLN%02d2L6\n" $LIBID
-		for a in {24..29} ; do
-			printf "Slot $a:\n"
-		done
+		# printf "Slot 21: \n"
+		# printf "Slot 22: CLN%02d1L8\n" $LIBID
+		# printf "Slot 23: CLN%02d2L6\n" $LIBID
+		# for a in {24..29} ; do
+		# 	printf "Slot $a:\n"
+		# done
 
-		# LTO-6 Media
-		for a in {30..39} ; do
-			printf "Slot $a: F0%02d%02dL6\n" $LIBID $a
-		done
+		# # LTO-6 Media
+		# for a in {30..39} ; do
+		# 	printf "Slot $a: F0%02d%02dL6\n" $LIBID $a
+		# done
 		;;
 
 	'30')
