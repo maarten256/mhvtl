@@ -16,7 +16,10 @@
 local.mk
 mhvtl_kernel.tgz
 /usr/mhvtl_kernel_mod_build
+**/*.log
+**/*.swp
 
 # Vagrant specific files
 /vagrant/.vagrant
 /vagrant/*.log
+AGENTS.md
